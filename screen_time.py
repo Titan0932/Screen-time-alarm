@@ -90,7 +90,7 @@ def end_time():
 
 
 root=Tk()
-root.minsize(width=600, height=500)
+root.minsize(width=700, height=500)
 root.resizable(width=False,height=False)
 root.title('Screen Time Notifier')
 #root['background']='pink'
@@ -117,9 +117,9 @@ u_time.place(x=220,y=280)
 start=Button(canvas,text='Start Working',command=work_start,padx=4,pady=5,bg="#856ff8",fg='ivory',font=5)
 start.place(x=140,y=320)
 relax=Button(canvas,text='I took a Break!',command=break_time,padx=4,pady=5,bg='#856ff8',fg='ivory',fon=5)
-relax.place(x=270,y=320)
+relax.place(x=290,y=320)
 finished=Button(canvas,text='Finished Working!!',command=end_time,padx=4,pady=5,bg='#856ff8',fg='ivory',font=5)
-finished.place(x=400,y=320)
+finished.place(x=450,y=320)
 
 
 
